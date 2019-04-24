@@ -1,4 +1,4 @@
-# Download-ImageNet
+# Download-ImageNet1K
 Download specific classes of images from ImageNet1K
 
 Reference:
