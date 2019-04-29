@@ -81,7 +81,7 @@ def main():
                         if (len(I.shape))==3: #check if the image has width, length and channels
 #                            plt.imshow(I)
 #                            plt.show()
-                            if np.mean(I)<253: # remove failed images (almost all white)
+                            if np.mean(I)<250: # remove failed images (almost all white)
                                 save_path = root+'/img'+str(nn)+'.jpg'#create a name of each image                
                                 cv2.imwrite(save_path,I)
                                 nn=nn+1
